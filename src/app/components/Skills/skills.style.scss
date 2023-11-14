@@ -1,3 +1,16 @@
+/* @keyframes load-bar {
+    0% {
+      transform: translateX(-100%);
+   }
+    100% {
+      transform: translateX(0%);
+   }
+  }
+  
+  .experience-measure {
+   animation: load-bar 3s linear forwards;
+  } */
+
 .experience-language {
     display: flex;
     align-items: center;
