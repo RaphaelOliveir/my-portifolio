@@ -1,16 +1,3 @@
-/* @keyframes load-bar {
-    0% {
-      transform: translateX(-100%);
-   }
-    100% {
-      transform: translateX(0%);
-   }
-  }
-  
-  .experience-measure {
-   animation: load-bar 3s linear forwards;
-  } */
-
 .experience-language {
     display: flex;
     align-items: center;
@@ -52,20 +39,62 @@
             }
 
             &.measure-2 {
+                animation: js 3s;
                 width: 90%;
             }
 
             &.measure-3 {
+                animation: react 3s;
                 width: 85%;
             }
 
             &.measure-4 {
+                animation: ts 3s;
                 width: 70%;
             }
 
             &.measure-5 {
+                animation: csharp 3s;
                 width: 50%;
             }
+
+
         }
+    }
+}
+
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes ts {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+
+@keyframes csharp {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
     }
 }
