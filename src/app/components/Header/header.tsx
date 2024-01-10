@@ -13,7 +13,7 @@ export function Header() {
       <Image
         src="/me.jpg"
         alt="My pic"
-        width={325}
+        width={250}
         height={310}
         priority
       />
